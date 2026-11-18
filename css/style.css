@@ -48,7 +48,7 @@ th, td {
   text-align: center;        
 }
 
-/* Estilo del título */
+
 h1 {
   text-align: center;
   color: #2c3e50;
@@ -56,7 +56,7 @@ h1 {
   margin-top: 30px;
 }
 
-/* Contenedor principal del formulario */
+
 form {
   max-width: 500px;
   margin: 20px auto;
@@ -68,12 +68,12 @@ form {
   font-family: Arial, sans-serif;
 }
 
-/* Separación entre cada campo */
+
 form div {
   margin-bottom: 15px;
 }
 
-/* Etiquetas (Nom complet, Correu, etc.) */
+
 label {
   display: block;
   margin-bottom: 6px;
@@ -81,7 +81,7 @@ label {
   color: #333;
 }
 
-/* Cajas de texto y área de mensaje */
+
 input[type="text"],
 input[type="email"],
 textarea {
@@ -90,11 +90,11 @@ textarea {
   border: 1px solid #ccc;
   border-radius: 5px;
   font-size: 14px;
-  box-sizing: border-box; /* Evita que el padding desborde el ancho */
+  box-sizing: border-box;
   font-family: inherit;
 }
 
-/* Efecto al hacer clic dentro de un campo */
+
 input[type="text"]:focus,
 input[type="email"]:focus,
 textarea:focus {
@@ -116,7 +116,6 @@ button[type="submit"] {
   transition: background-color 0.3s ease;
 }
 
-/* Efecto al pasar el ratón por encima del botón */
 button[type="submit"]:hover {
   background-color: #0056b3;
 }
